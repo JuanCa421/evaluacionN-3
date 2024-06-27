@@ -10,7 +10,7 @@ document.getElementById('btnGuardar').addEventListener('click',() =>{
                 sativa: document.getElementById('sativa').value,
                 indica: document.getElementById('indica').value,
                 floracion: document.getElementById('floracion').value,
-                gene: document.getElementById('genetica').value,
+                gene: document.getElementById('gene').value,
                 thc: document.getElementById('thc').value,
                 fecha: document.getElementById('fecha').value
                 
