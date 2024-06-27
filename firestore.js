@@ -1,14 +1,14 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js"
 import { addDoc, collection, getFirestore, onSnapshot,deleteDoc,doc,getDoc } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-firestore.js"
 const firebaseConfig = {
-    apiKey: "AIzaSyD245otRrFgaAT-PjwXBWM1hY82HLoU2Rw",
-    authDomain: "mlv4-6229f.firebaseapp.com",
-    projectId: "mlv4-6229f",
-    storageBucket: "mlv4-6229f.appspot.com",
-    messagingSenderId: "592652486698",
-    appId: "1:592652486698:web:810eb2b4c5b21067035b53",
-    measurementId: "G-70E8D9NXBP"
-  }
+  apiKey: "AIzaSyCJQ8LB6FqxjpcwPp6JRwZAFZYEODaI8kg",
+  authDomain: "semillas-99d01.firebaseapp.com",
+  projectId: "semillas-99d01",
+  storageBucket: "semillas-99d01.appspot.com",
+  messagingSenderId: "706702274325",
+  appId: "1:706702274325:web:bbb561436b29b24193431c"
+};
+
   const app = initializeApp(firebaseConfig)
   const db = getFirestore(app)
   export const save = (sem) => {
