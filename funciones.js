@@ -12,7 +12,7 @@ document.getElementById('btnGuardar').addEventListener('click',() =>{
                 floracion: document.getElementById('floracion').value,
                 gene: document.getElementById('genetica').value,
                 thc: document.getElementById('thc').value,
-                fecha: document.getElementById('fecha de cultivo').value
+                fecha: document.getElementById('fechadecultivo').value
                 
             }
             save(Semillas)
